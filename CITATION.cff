@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as described below."
+type: software
+title: "GSMLP and VIHON: Gaussian-Synapse Neural Networks in Python"
+authors:
+  - family-names: "Crespo-Mariño"
+    given-names: "Juan Luis"
+    affiliation: "Tecnológico de Costa Rica"
+    email: "jcrespo@itcr.ac.cr"
+  - family-names: "Sancho-Theoduloz"
+    given-names: "Aníbal"
+abstract: >
+  Reference Python implementations of GSMLP and VIHON, two high-order neural
+  network architectures based on trainable Gaussian synapses for flat-vector
+  and three-dimensional vector-valued inputs, respectively.
+keywords:
+  - neural networks
+  - high-order neural networks
+  - Gaussian synapses
+  - GSMLP
+  - VIHON
+license: "BSD-3-Clause"
+repository-code: "https://github.com/jlcrespomarino/gsmlp-vihon"
+version: "0.1.0"
+date-released: "2026-10-05"
+references:
+  - type: conference-paper
+    authors:
+      - family-names: "Duro"
+        given-names: "Richard J."
+      - family-names: "Crespo"
+        given-names: "J. L."
+      - family-names: "Santos"
+        given-names: "J."
+    title: "Training Higher Order Gaussian Synapses"
+    year: 1999
+    doi: "10.1007/BFb0098211"
+  - type: conference-paper
+    authors:
+      - family-names: "Crespo"
+        given-names: "J. L."
+      - family-names: "Duro"
+        given-names: "Richard J."
+    title: "Considering Multidimensional Information Through Vector Neural Networks"
+    year: 2005
+    doi: "10.1007/11494669_3"
