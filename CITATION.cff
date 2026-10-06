@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this software repository and the relevant foundational publications when using these implementations in research."
 type: software
 title: "GSMLP and VIHON: Gaussian-Synapse Neural Networks in Python"
+version: "0.1.0"
 authors:
   - family-names: "Crespo-Mariño"
     given-names: "Juan Luis"
