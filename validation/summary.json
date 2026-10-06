@@ -1,0 +1,31 @@
+{
+  "validation_date": "2026-10-06",
+  "execution": "local Python process",
+  "environment": {
+    "python": "3.12.8",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.6.1",
+    "pandas": "2.2.3"
+  },
+  "unittest": {
+    "gsmlp_passed": 31,
+    "vihon_passed": 39,
+    "total_passed": 70
+  },
+  "gradient_audits": {
+    "gsmlp": {
+      "comparisons": 252,
+      "passed": 252,
+      "max_absolute_error": 6.5059916479269335e-12
+    },
+    "vihon": {
+      "comparisons": 1752,
+      "passed": 1752,
+      "max_absolute_error": 3.084937839036017e-11
+    }
+  },
+  "rtol": 0.0001,
+  "atol": 1e-07,
+  "github_actions_execution_claimed": false,
+  "historical_benchmarks_reproduced": false
+}
