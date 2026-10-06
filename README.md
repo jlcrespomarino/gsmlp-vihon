@@ -2,7 +2,13 @@
 
 Reference Python implementations of neural-network architectures with trainable Gaussian synapses.
 
-Status: reviewed development snapshot / release candidate. The code, examples and checks are publicly available; no tagged release or software DOI is declared yet. Passing the documented checks does not establish universal convergence or reproduce historical benchmarks.
+Status: initial public reference release v0.1.0, published on 2026-10-06 and archived in Zenodo. Passing the documented checks does not establish universal convergence or reproduce historical benchmarks.
+
+- [Archived version v0.1.0](https://doi.org/10.5281/zenodo.23194204)
+- [All versions (concept DOI)](https://doi.org/10.5281/zenodo.23194203)
+- [GitHub release v0.1.0](https://github.com/jlcrespomarino/gsmlp-vihon/releases/tag/v0.1.0)
+
+The archived release corresponds to commit 01a0aaad89eff074f34fc04ad9fed34fe7058c63. The main branch may contain later documentation or development changes. Use the archived version for an exact software snapshot.
 
 ## Authors and roles
 
@@ -86,10 +92,14 @@ The validation requirements include the core requirements and pandas. pandas is 
 
 ## Citation and license
 
-Please cite this repository and the relevant foundational publication when using these implementations in research. [CITATION.cff](CITATION.cff) provides software citation metadata. Until a release DOI exists, record the commit used for reproducibility.
+Please cite the archived software version and the relevant foundational publication when using these implementations in research. [CITATION.cff](CITATION.cff) provides software citation metadata.
+
+Crespo-Mariño, J. L., & Sancho-Theoduloz, A. (2026). *GSMLP and VIHON: Gaussian-Synapse Neural Networks in Python* (Version v0.1.0) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.23194204](https://doi.org/10.5281/zenodo.23194204).
+
+Use DOI 10.5281/zenodo.23194204 to cite the exact v0.1.0 snapshot. DOI 10.5281/zenodo.23194203 represents all versions and resolves to the latest one.
 
 GSMLP: Duro, R. J., Crespo, J. L., and Santos, J. (1999). Training Higher Order Gaussian Synapses. LNCS 1606, 537–545. [DOI: 10.1007/BFb0098211](https://doi.org/10.1007/BFb0098211).
 
 VIHON: Crespo, J. L., and Duro, R. J. (2005). Considering Multidimensional Information Through Vector Neural Networks. LNCS 3512, 17–24. [DOI: 10.1007/11494669_3](https://doi.org/10.1007/11494669_3).
 
-These are publication DOIs, not software DOIs. BSD 3-Clause; see [LICENSE](LICENSE).
+The DOIs listed with the two foundational papers identify publications, not software releases. BSD 3-Clause; see [LICENSE](LICENSE).

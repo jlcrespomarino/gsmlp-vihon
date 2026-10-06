@@ -3,6 +3,9 @@ message: "Please cite this software repository and the relevant foundational pub
 type: software
 title: "GSMLP and VIHON: Gaussian-Synapse Neural Networks in Python"
 version: "0.1.0"
+date-released: "2026-10-06"
+doi: "10.5281/zenodo.23194204"
+url: "https://zenodo.org/records/23194204"
 authors:
   - family-names: "Crespo-Mariño"
     given-names: "Juan Luis"
